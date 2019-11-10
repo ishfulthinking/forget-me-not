@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Forget-Me-Not
+//  forget-me-not
 //
-//  Created by Ishmael Perez on 10/13/19.
+//  Created by Ishmael Perez on 11/10/19.
 //  Copyright © 2019 Appollo. All rights reserved.
 //
 
@@ -28,10 +28,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
-            
         }
-        
-        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

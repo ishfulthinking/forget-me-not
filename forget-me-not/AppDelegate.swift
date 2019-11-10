@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Forget-Me-Not
+//  forget-me-not
 //
-//  Created by Ishmael Perez on 10/13/19.
+//  Created by Ishmael Perez on 11/10/19.
 //  Copyright © 2019 Appollo. All rights reserved.
 //
 
@@ -15,16 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        //Just added this
-        let exercises = SelfCareTableViewController(nibName: "SelfCareTableViewController", bundle: nil)
-        exercises.title = "Exercises"
-
-        let navigationController = UINavigationController(rootViewController: exercises)
-//
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//        window?.rootViewController = navigationController
-//        window?.makeKeyAndVisible()
         return true
     }
 

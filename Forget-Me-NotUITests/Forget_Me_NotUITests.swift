@@ -1,14 +1,14 @@
 //
-//  Forget_Me_NotUITests.swift
-//  Forget-Me-NotUITests
+//  forget_me_notUITests.swift
+//  forget-me-notUITests
 //
-//  Created by Ishmael Perez on 10/13/19.
+//  Created by Ishmael Perez on 11/10/19.
 //  Copyright © 2019 Appollo. All rights reserved.
 //
 
 import XCTest
 
-class Forget_Me_NotUITests: XCTestCase {
+class forget_me_notUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

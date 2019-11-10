@@ -7,70 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03BAA7912353F72A00435D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAA7902353F72A00435D0D /* AppDelegate.swift */; };
-		03BAA7932353F72A00435D0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAA7922353F72A00435D0D /* SceneDelegate.swift */; };
-		03BAA7952353F72A00435D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAA7942353F72A00435D0D /* ContentView.swift */; };
-		03BAA7972353F72B00435D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BAA7962353F72B00435D0D /* Assets.xcassets */; };
-		03BAA79A2353F72B00435D0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BAA7992353F72B00435D0D /* Preview Assets.xcassets */; };
-		03BAA79D2353F72B00435D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BAA79B2353F72B00435D0D /* LaunchScreen.storyboard */; };
-		03BAA7A82353F72B00435D0D /* Forget_Me_NotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAA7A72353F72B00435D0D /* Forget_Me_NotTests.swift */; };
-		03BAA7B32353F72C00435D0D /* Forget_Me_NotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAA7B22353F72C00435D0D /* Forget_Me_NotUITests.swift */; };
-		FA0C3DBE237074680066B0B5 /* SelfCareTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C3DBC237074680066B0B5 /* SelfCareTableViewController.swift */; };
-		FA0C3DBF237074680066B0B5 /* SelfCareTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0C3DBD237074680066B0B5 /* SelfCareTableViewController.xib */; };
+		03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36B2378A885001439FF /* AppDelegate.swift */; };
+		03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36D2378A885001439FF /* SceneDelegate.swift */; };
+		03B0D3702378A885001439FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36F2378A885001439FF /* ContentView.swift */; };
+		03B0D3722378A886001439FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3712378A886001439FF /* Assets.xcassets */; };
+		03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3742378A886001439FF /* Preview Assets.xcassets */; };
+		03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3762378A886001439FF /* LaunchScreen.storyboard */; };
+		03B0D3832378A886001439FF /* forget_me_notUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3822378A886001439FF /* forget_me_notUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03BAA7A42353F72B00435D0D /* PBXContainerItemProxy */ = {
+		03B0D37F2378A886001439FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 03BAA7852353F72A00435D0D /* Project object */;
+			containerPortal = 03B0D3602378A885001439FF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 03BAA78C2353F72A00435D0D;
-			remoteInfo = "Forget-Me-Not";
-		};
-		03BAA7AF2353F72C00435D0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03BAA7852353F72A00435D0D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03BAA78C2353F72A00435D0D;
-			remoteInfo = "Forget-Me-Not";
+			remoteGlobalIDString = 03B0D3672378A885001439FF;
+			remoteInfo = "forget-me-not";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03BAA78D2353F72A00435D0D /* Forget-Me-Not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forget-Me-Not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03BAA7902353F72A00435D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03BAA7922353F72A00435D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03BAA7942353F72A00435D0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		03BAA7962353F72B00435D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03BAA7992353F72B00435D0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		03BAA79C2353F72B00435D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		03BAA79E2353F72B00435D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03BAA7A32353F72B00435D0D /* Forget-Me-NotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forget-Me-NotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03BAA7A72353F72B00435D0D /* Forget_Me_NotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forget_Me_NotTests.swift; sourceTree = "<group>"; };
-		03BAA7A92353F72B00435D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03BAA7AE2353F72C00435D0D /* Forget-Me-NotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forget-Me-NotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03BAA7B22353F72C00435D0D /* Forget_Me_NotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forget_Me_NotUITests.swift; sourceTree = "<group>"; };
-		03BAA7B42353F72C00435D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA0C3DBC237074680066B0B5 /* SelfCareTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareTableViewController.swift; sourceTree = "<group>"; };
-		FA0C3DBD237074680066B0B5 /* SelfCareTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfCareTableViewController.xib; sourceTree = "<group>"; };
+		03B0D3682378A885001439FF /* forget-me-not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "forget-me-not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B0D36B2378A885001439FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B0D36D2378A885001439FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03B0D36F2378A885001439FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03B0D3712378A886001439FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B0D3742378A886001439FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03B0D3772378A886001439FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B0D3792378A886001439FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B0D37E2378A886001439FF /* forget-me-notUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "forget-me-notUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B0D3822378A886001439FF /* forget_me_notUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forget_me_notUITests.swift; sourceTree = "<group>"; };
+		03B0D3842378A886001439FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03BAA78A2353F72A00435D0D /* Frameworks */ = {
+		03B0D3652378A885001439FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03BAA7A02353F72B00435D0D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03BAA7AB2353F72C00435D0D /* Frameworks */ = {
+		03B0D37B2378A886001439FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,164 +58,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03BAA7842353F72A00435D0D = {
+		03B0D35F2378A885001439FF = {
 			isa = PBXGroup;
 			children = (
-				03BAA78F2353F72A00435D0D /* Forget-Me-Not */,
-				03BAA7A62353F72B00435D0D /* Forget-Me-NotTests */,
-				03BAA7B12353F72C00435D0D /* Forget-Me-NotUITests */,
-				03BAA78E2353F72A00435D0D /* Products */,
+				03B0D36A2378A885001439FF /* forget-me-not */,
+				03B0D3812378A886001439FF /* forget-me-notUITests */,
+				03B0D3692378A885001439FF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03BAA78E2353F72A00435D0D /* Products */ = {
+		03B0D3692378A885001439FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03BAA78D2353F72A00435D0D /* Forget-Me-Not.app */,
-				03BAA7A32353F72B00435D0D /* Forget-Me-NotTests.xctest */,
-				03BAA7AE2353F72C00435D0D /* Forget-Me-NotUITests.xctest */,
+				03B0D3682378A885001439FF /* forget-me-not.app */,
+				03B0D37E2378A886001439FF /* forget-me-notUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03BAA78F2353F72A00435D0D /* Forget-Me-Not */ = {
+		03B0D36A2378A885001439FF /* forget-me-not */ = {
 			isa = PBXGroup;
 			children = (
-				03BAA7902353F72A00435D0D /* AppDelegate.swift */,
-				03BAA7922353F72A00435D0D /* SceneDelegate.swift */,
-				03BAA7942353F72A00435D0D /* ContentView.swift */,
-				FA0C3DB82367971C0066B0B5 /* Tools */,
-				03BAA7962353F72B00435D0D /* Assets.xcassets */,
-				03BAA79B2353F72B00435D0D /* LaunchScreen.storyboard */,
-				03BAA79E2353F72B00435D0D /* Info.plist */,
-				03BAA7982353F72B00435D0D /* Preview Content */,
+				03B0D36B2378A885001439FF /* AppDelegate.swift */,
+				03B0D36D2378A885001439FF /* SceneDelegate.swift */,
+				03B0D36F2378A885001439FF /* ContentView.swift */,
+				03B0D3712378A886001439FF /* Assets.xcassets */,
+				03B0D3762378A886001439FF /* LaunchScreen.storyboard */,
+				03B0D3792378A886001439FF /* Info.plist */,
+				03B0D3732378A886001439FF /* Preview Content */,
 			);
-			path = "Forget-Me-Not";
+			path = "forget-me-not";
 			sourceTree = "<group>";
 		};
-		03BAA7982353F72B00435D0D /* Preview Content */ = {
+		03B0D3732378A886001439FF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				03BAA7992353F72B00435D0D /* Preview Assets.xcassets */,
+				03B0D3742378A886001439FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		03BAA7A62353F72B00435D0D /* Forget-Me-NotTests */ = {
+		03B0D3812378A886001439FF /* forget-me-notUITests */ = {
 			isa = PBXGroup;
 			children = (
-				03BAA7A72353F72B00435D0D /* Forget_Me_NotTests.swift */,
-				03BAA7A92353F72B00435D0D /* Info.plist */,
+				03B0D3822378A886001439FF /* forget_me_notUITests.swift */,
+				03B0D3842378A886001439FF /* Info.plist */,
 			);
-			path = "Forget-Me-NotTests";
-			sourceTree = "<group>";
-		};
-		03BAA7B12353F72C00435D0D /* Forget-Me-NotUITests */ = {
-			isa = PBXGroup;
-			children = (
-				03BAA7B22353F72C00435D0D /* Forget_Me_NotUITests.swift */,
-				03BAA7B42353F72C00435D0D /* Info.plist */,
-			);
-			path = "Forget-Me-NotUITests";
-			sourceTree = "<group>";
-		};
-		FA0C3DB82367971C0066B0B5 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				FA0C3DB9236798050066B0B5 /* SelfCare */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		FA0C3DB9236798050066B0B5 /* SelfCare */ = {
-			isa = PBXGroup;
-			children = (
-				FA0C3DBC237074680066B0B5 /* SelfCareTableViewController.swift */,
-				FA0C3DBD237074680066B0B5 /* SelfCareTableViewController.xib */,
-			);
-			path = SelfCare;
+			path = "forget-me-notUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03BAA78C2353F72A00435D0D /* Forget-Me-Not */ = {
+		03B0D3672378A885001439FF /* forget-me-not */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03BAA7B72353F72C00435D0D /* Build configuration list for PBXNativeTarget "Forget-Me-Not" */;
+			buildConfigurationList = 03B0D3872378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-not" */;
 			buildPhases = (
-				03BAA7892353F72A00435D0D /* Sources */,
-				03BAA78A2353F72A00435D0D /* Frameworks */,
-				03BAA78B2353F72A00435D0D /* Resources */,
+				03B0D3642378A885001439FF /* Sources */,
+				03B0D3652378A885001439FF /* Frameworks */,
+				03B0D3662378A885001439FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Forget-Me-Not";
-			productName = "Forget-Me-Not";
-			productReference = 03BAA78D2353F72A00435D0D /* Forget-Me-Not.app */;
+			name = "forget-me-not";
+			productName = "forget-me-not";
+			productReference = 03B0D3682378A885001439FF /* forget-me-not.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03BAA7A22353F72B00435D0D /* Forget-Me-NotTests */ = {
+		03B0D37D2378A886001439FF /* forget-me-notUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03BAA7BA2353F72C00435D0D /* Build configuration list for PBXNativeTarget "Forget-Me-NotTests" */;
+			buildConfigurationList = 03B0D38A2378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-notUITests" */;
 			buildPhases = (
-				03BAA79F2353F72B00435D0D /* Sources */,
-				03BAA7A02353F72B00435D0D /* Frameworks */,
-				03BAA7A12353F72B00435D0D /* Resources */,
+				03B0D37A2378A886001439FF /* Sources */,
+				03B0D37B2378A886001439FF /* Frameworks */,
+				03B0D37C2378A886001439FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				03BAA7A52353F72B00435D0D /* PBXTargetDependency */,
+				03B0D3802378A886001439FF /* PBXTargetDependency */,
 			);
-			name = "Forget-Me-NotTests";
-			productName = "Forget-Me-NotTests";
-			productReference = 03BAA7A32353F72B00435D0D /* Forget-Me-NotTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		03BAA7AD2353F72C00435D0D /* Forget-Me-NotUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03BAA7BD2353F72C00435D0D /* Build configuration list for PBXNativeTarget "Forget-Me-NotUITests" */;
-			buildPhases = (
-				03BAA7AA2353F72C00435D0D /* Sources */,
-				03BAA7AB2353F72C00435D0D /* Frameworks */,
-				03BAA7AC2353F72C00435D0D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				03BAA7B02353F72C00435D0D /* PBXTargetDependency */,
-			);
-			name = "Forget-Me-NotUITests";
-			productName = "Forget-Me-NotUITests";
-			productReference = 03BAA7AE2353F72C00435D0D /* Forget-Me-NotUITests.xctest */;
+			name = "forget-me-notUITests";
+			productName = "forget-me-notUITests";
+			productReference = 03B0D37E2378A886001439FF /* forget-me-notUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03BAA7852353F72A00435D0D /* Project object */ = {
+		03B0D3602378A885001439FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Appollo;
 				TargetAttributes = {
-					03BAA78C2353F72A00435D0D = {
+					03B0D3672378A885001439FF = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					03BAA7A22353F72B00435D0D = {
+					03B0D37D2378A886001439FF = {
 						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 03BAA78C2353F72A00435D0D;
-					};
-					03BAA7AD2353F72C00435D0D = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 03BAA78C2353F72A00435D0D;
+						TestTargetID = 03B0D3672378A885001439FF;
 					};
 				};
 			};
-			buildConfigurationList = 03BAA7882353F72A00435D0D /* Build configuration list for PBXProject "Forget-Me-Not" */;
+			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -245,38 +172,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 03BAA7842353F72A00435D0D;
-			productRefGroup = 03BAA78E2353F72A00435D0D /* Products */;
+			mainGroup = 03B0D35F2378A885001439FF;
+			productRefGroup = 03B0D3692378A885001439FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03BAA78C2353F72A00435D0D /* Forget-Me-Not */,
-				03BAA7A22353F72B00435D0D /* Forget-Me-NotTests */,
-				03BAA7AD2353F72C00435D0D /* Forget-Me-NotUITests */,
+				03B0D3672378A885001439FF /* forget-me-not */,
+				03B0D37D2378A886001439FF /* forget-me-notUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03BAA78B2353F72A00435D0D /* Resources */ = {
+		03B0D3662378A885001439FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0C3DBF237074680066B0B5 /* SelfCareTableViewController.xib in Resources */,
-				03BAA79D2353F72B00435D0D /* LaunchScreen.storyboard in Resources */,
-				03BAA79A2353F72B00435D0D /* Preview Assets.xcassets in Resources */,
-				03BAA7972353F72B00435D0D /* Assets.xcassets in Resources */,
+				03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */,
+				03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */,
+				03B0D3722378A886001439FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03BAA7A12353F72B00435D0D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03BAA7AC2353F72C00435D0D /* Resources */ = {
+		03B0D37C2378A886001439FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,53 +204,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03BAA7892353F72A00435D0D /* Sources */ = {
+		03B0D3642378A885001439FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03BAA7912353F72A00435D0D /* AppDelegate.swift in Sources */,
-				FA0C3DBE237074680066B0B5 /* SelfCareTableViewController.swift in Sources */,
-				03BAA7932353F72A00435D0D /* SceneDelegate.swift in Sources */,
-				03BAA7952353F72A00435D0D /* ContentView.swift in Sources */,
+				03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */,
+				03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */,
+				03B0D3702378A885001439FF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03BAA79F2353F72B00435D0D /* Sources */ = {
+		03B0D37A2378A886001439FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03BAA7A82353F72B00435D0D /* Forget_Me_NotTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03BAA7AA2353F72C00435D0D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03BAA7B32353F72C00435D0D /* Forget_Me_NotUITests.swift in Sources */,
+				03B0D3832378A886001439FF /* forget_me_notUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03BAA7A52353F72B00435D0D /* PBXTargetDependency */ = {
+		03B0D3802378A886001439FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03BAA78C2353F72A00435D0D /* Forget-Me-Not */;
-			targetProxy = 03BAA7A42353F72B00435D0D /* PBXContainerItemProxy */;
-		};
-		03BAA7B02353F72C00435D0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03BAA78C2353F72A00435D0D /* Forget-Me-Not */;
-			targetProxy = 03BAA7AF2353F72C00435D0D /* PBXContainerItemProxy */;
+			target = 03B0D3672378A885001439FF /* forget-me-not */;
+			targetProxy = 03B0D37F2378A886001439FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03BAA79B2353F72B00435D0D /* LaunchScreen.storyboard */ = {
+		03B0D3762378A886001439FF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03BAA79C2353F72B00435D0D /* Base */,
+				03B0D3772378A886001439FF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -340,7 +244,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		03BAA7B52353F72C00435D0D /* Debug */ = {
+		03B0D3852378A886001439FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -400,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		03BAA7B62353F72C00435D0D /* Release */ = {
+		03B0D3862378A886001439FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -454,170 +358,117 @@
 			};
 			name = Release;
 		};
-		03BAA7B82353F72C00435D0D /* Debug */ = {
+		03B0D3882378A886001439FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Forget-Me-Not/Preview Content\"";
-				DEVELOPMENT_TEAM = 78559WUUR9;
+				DEVELOPMENT_ASSET_PATHS = "\"forget-me-not/Preview Content\"";
+				DEVELOPMENT_TEAM = 84ACB5QJ96;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Forget-Me-Not/Info.plist";
+				INFOPLIST_FILE = "forget-me-not/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Forget-Me-Not";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-not";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		03BAA7B92353F72C00435D0D /* Release */ = {
+		03B0D3892378A886001439FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Forget-Me-Not/Preview Content\"";
-				DEVELOPMENT_TEAM = 78559WUUR9;
+				DEVELOPMENT_ASSET_PATHS = "\"forget-me-not/Preview Content\"";
+				DEVELOPMENT_TEAM = 84ACB5QJ96;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Forget-Me-Not/Info.plist";
+				INFOPLIST_FILE = "forget-me-not/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Forget-Me-Not";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-not";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		03BAA7BB2353F72C00435D0D /* Debug */ = {
+		03B0D38B2378A886001439FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78559WUUR9;
-				INFOPLIST_FILE = "Forget-Me-NotTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				DEVELOPMENT_TEAM = 84ACB5QJ96;
+				INFOPLIST_FILE = "forget-me-notUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Forget-Me-NotTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-notUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forget-Me-Not.app/Forget-Me-Not";
+				TEST_TARGET_NAME = "forget-me-not";
 			};
 			name = Debug;
 		};
-		03BAA7BC2353F72C00435D0D /* Release */ = {
+		03B0D38C2378A886001439FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78559WUUR9;
-				INFOPLIST_FILE = "Forget-Me-NotTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				DEVELOPMENT_TEAM = 84ACB5QJ96;
+				INFOPLIST_FILE = "forget-me-notUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Forget-Me-NotTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-notUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forget-Me-Not.app/Forget-Me-Not";
-			};
-			name = Release;
-		};
-		03BAA7BE2353F72C00435D0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78559WUUR9;
-				INFOPLIST_FILE = "Forget-Me-NotUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Forget-Me-NotUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Forget-Me-Not";
-			};
-			name = Debug;
-		};
-		03BAA7BF2353F72C00435D0D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78559WUUR9;
-				INFOPLIST_FILE = "Forget-Me-NotUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Forget-Me-NotUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Forget-Me-Not";
+				TEST_TARGET_NAME = "forget-me-not";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03BAA7882353F72A00435D0D /* Build configuration list for PBXProject "Forget-Me-Not" */ = {
+		03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03BAA7B52353F72C00435D0D /* Debug */,
-				03BAA7B62353F72C00435D0D /* Release */,
+				03B0D3852378A886001439FF /* Debug */,
+				03B0D3862378A886001439FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03BAA7B72353F72C00435D0D /* Build configuration list for PBXNativeTarget "Forget-Me-Not" */ = {
+		03B0D3872378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03BAA7B82353F72C00435D0D /* Debug */,
-				03BAA7B92353F72C00435D0D /* Release */,
+				03B0D3882378A886001439FF /* Debug */,
+				03B0D3892378A886001439FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03BAA7BA2353F72C00435D0D /* Build configuration list for PBXNativeTarget "Forget-Me-NotTests" */ = {
+		03B0D38A2378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-notUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03BAA7BB2353F72C00435D0D /* Debug */,
-				03BAA7BC2353F72C00435D0D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		03BAA7BD2353F72C00435D0D /* Build configuration list for PBXNativeTarget "Forget-Me-NotUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03BAA7BE2353F72C00435D0D /* Debug */,
-				03BAA7BF2353F72C00435D0D /* Release */,
+				03B0D38B2378A886001439FF /* Debug */,
+				03B0D38C2378A886001439FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03BAA7852353F72A00435D0D /* Project object */;
+	rootObject = 03B0D3602378A885001439FF /* Project object */;
 }
