@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36B2378A885001439FF /* AppDelegate.swift */; };
 		03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36D2378A885001439FF /* SceneDelegate.swift */; };
-		03B0D3702378A885001439FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36F2378A885001439FF /* ContentView.swift */; };
+		03B0D3702378A885001439FF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36F2378A885001439FF /* DashboardView.swift */; };
 		03B0D3722378A886001439FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3712378A886001439FF /* Assets.xcassets */; };
 		03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3742378A886001439FF /* Preview Assets.xcassets */; };
 		03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3762378A886001439FF /* LaunchScreen.storyboard */; };
 		03B0D3832378A886001439FF /* forget_me_notUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3822378A886001439FF /* forget_me_notUITests.swift */; };
+		03B0D3922378B470001439FF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3912378B470001439FF /* TabBarController.swift */; };
+		03B0D3942378B7EB001439FF /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3932378B7EB001439FF /* DashboardViewController.swift */; };
+		03B0D39A2378B9F0001439FF /* MoodLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3992378B9F0001439FF /* MoodLogViewController.swift */; };
+		03B0D39C2378BA41001439FF /* SelfCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39B2378BA41001439FF /* SelfCareViewController.swift */; };
+		03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39D2378BA57001439FF /* MedicationViewController.swift */; };
+		03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39F2378BAC5001439FF /* JournalViewController.swift */; };
+		03B0D3A22378BDF5001439FF /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3A12378BDF5001439FF /* Dashboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +37,7 @@
 		03B0D3682378A885001439FF /* forget-me-not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "forget-me-not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B0D36B2378A885001439FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B0D36D2378A885001439FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03B0D36F2378A885001439FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03B0D36F2378A885001439FF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		03B0D3712378A886001439FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03B0D3742378A886001439FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03B0D3772378A886001439FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +45,13 @@
 		03B0D37E2378A886001439FF /* forget-me-notUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "forget-me-notUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B0D3822378A886001439FF /* forget_me_notUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forget_me_notUITests.swift; sourceTree = "<group>"; };
 		03B0D3842378A886001439FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B0D3912378B470001439FF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = "forget-me-not/Components/TabBarController.swift"; sourceTree = SOURCE_ROOT; };
+		03B0D3932378B7EB001439FF /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		03B0D3992378B9F0001439FF /* MoodLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogViewController.swift; sourceTree = "<group>"; };
+		03B0D39B2378BA41001439FF /* SelfCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareViewController.swift; sourceTree = "<group>"; };
+		03B0D39D2378BA57001439FF /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
+		03B0D39F2378BAC5001439FF /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		03B0D3A12378BDF5001439FF /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +95,7 @@
 			children = (
 				03B0D36B2378A885001439FF /* AppDelegate.swift */,
 				03B0D36D2378A885001439FF /* SceneDelegate.swift */,
-				03B0D36F2378A885001439FF /* ContentView.swift */,
+				03B0D38F2378B442001439FF /* Components */,
 				03B0D3712378A886001439FF /* Assets.xcassets */,
 				03B0D3762378A886001439FF /* LaunchScreen.storyboard */,
 				03B0D3792378A886001439FF /* Info.plist */,
@@ -105,6 +119,61 @@
 				03B0D3842378A886001439FF /* Info.plist */,
 			);
 			path = "forget-me-notUITests";
+			sourceTree = "<group>";
+		};
+		03B0D38F2378B442001439FF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				03B0D3912378B470001439FF /* TabBarController.swift */,
+				03B0D3962378B9C1001439FF /* Journal */,
+				03B0D3902378B44D001439FF /* Dashboard */,
+				03B0D3982378B9DA001439FF /* Medication */,
+				03B0D3972378B9D2001439FF /* SelfCare */,
+				03B0D3952378B9AE001439FF /* MoodLog */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		03B0D3902378B44D001439FF /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				03B0D36F2378A885001439FF /* DashboardView.swift */,
+				03B0D3932378B7EB001439FF /* DashboardViewController.swift */,
+				03B0D3A12378BDF5001439FF /* Dashboard.storyboard */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		03B0D3952378B9AE001439FF /* MoodLog */ = {
+			isa = PBXGroup;
+			children = (
+				03B0D3992378B9F0001439FF /* MoodLogViewController.swift */,
+			);
+			path = MoodLog;
+			sourceTree = "<group>";
+		};
+		03B0D3962378B9C1001439FF /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				03B0D39F2378BAC5001439FF /* JournalViewController.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		03B0D3972378B9D2001439FF /* SelfCare */ = {
+			isa = PBXGroup;
+			children = (
+				03B0D39B2378BA41001439FF /* SelfCareViewController.swift */,
+			);
+			path = SelfCare;
+			sourceTree = "<group>";
+		};
+		03B0D3982378B9DA001439FF /* Medication */ = {
+			isa = PBXGroup;
+			children = (
+				03B0D39D2378BA57001439FF /* MedicationViewController.swift */,
+			);
+			path = Medication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +260,7 @@
 				03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */,
 				03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */,
 				03B0D3722378A886001439FF /* Assets.xcassets in Resources */,
+				03B0D3A22378BDF5001439FF /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B0D39A2378B9F0001439FF /* MoodLogViewController.swift in Sources */,
+				03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */,
 				03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */,
+				03B0D3922378B470001439FF /* TabBarController.swift in Sources */,
+				03B0D3942378B7EB001439FF /* DashboardViewController.swift in Sources */,
 				03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */,
-				03B0D3702378A885001439FF /* ContentView.swift in Sources */,
+				03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */,
+				03B0D39C2378BA41001439FF /* SelfCareViewController.swift in Sources */,
+				03B0D3702378A885001439FF /* DashboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
