@@ -11,5 +11,8 @@ import UIKit
 class MedicationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(red: 110, green: 80, blue: 100, alpha: 1.0)
+        self.title = "Medication"
+        print("Loaded medication view controller.")
     }
 }
