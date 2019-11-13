@@ -13,5 +13,8 @@ import UIKit
 class MoodLogViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(red: 80, green: 100, blue: 110, alpha: 1.0)
+        self.title = "Mood Log"
+        print("Loaded mood log view controller.")
     }
 }

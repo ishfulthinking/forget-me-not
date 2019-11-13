@@ -21,6 +21,8 @@
 		03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39D2378BA57001439FF /* MedicationViewController.swift */; };
 		03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39F2378BAC5001439FF /* JournalViewController.swift */; };
 		03B0D3A22378BDF5001439FF /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3A12378BDF5001439FF /* Dashboard.storyboard */; };
+		03B0D3AC237A3146001439FF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AB237A3146001439FF /* UserData.swift */; };
+		03B0D3AE237A3C27001439FF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AD237A3C27001439FF /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		03B0D39D2378BA57001439FF /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
 		03B0D39F2378BAC5001439FF /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		03B0D3A12378BDF5001439FF /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		03B0D3AB237A3146001439FF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		03B0D3AD237A3C27001439FF /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			children = (
 				03B0D36B2378A885001439FF /* AppDelegate.swift */,
 				03B0D36D2378A885001439FF /* SceneDelegate.swift */,
+				03B0D3AB237A3146001439FF /* UserData.swift */,
+				03B0D3AD237A3C27001439FF /* Styles.swift */,
 				03B0D38F2378B442001439FF /* Components */,
 				03B0D3712378A886001439FF /* Assets.xcassets */,
 				03B0D3762378A886001439FF /* LaunchScreen.storyboard */,
@@ -278,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B0D3AE237A3C27001439FF /* Styles.swift in Sources */,
 				03B0D39A2378B9F0001439FF /* MoodLogViewController.swift in Sources */,
 				03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */,
 				03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */,
@@ -286,6 +293,7 @@
 				03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */,
 				03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */,
 				03B0D39C2378BA41001439FF /* SelfCareViewController.swift in Sources */,
+				03B0D3AC237A3146001439FF /* UserData.swift in Sources */,
 				03B0D3702378A885001439FF /* DashboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
