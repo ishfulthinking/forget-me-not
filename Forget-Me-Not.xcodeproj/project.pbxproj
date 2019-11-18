@@ -23,6 +23,7 @@
 		03B0D3A22378BDF5001439FF /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3A12378BDF5001439FF /* Dashboard.storyboard */; };
 		03B0D3AC237A3146001439FF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AB237A3146001439FF /* UserData.swift */; };
 		03B0D3AE237A3C27001439FF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AD237A3C27001439FF /* Styles.swift */; };
+		FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		03B0D3A12378BDF5001439FF /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		03B0D3AB237A3146001439FF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		03B0D3AD237A3C27001439FF /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelfCare.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				03B0D39B2378BA41001439FF /* SelfCareViewController.swift */,
+				FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */,
 			);
 			path = SelfCare;
 			sourceTree = "<group>";
@@ -239,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */;
+			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "Forget-Me-Not" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -265,6 +268,7 @@
 			files = (
 				03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */,
 				03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */,
+				FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */,
 				03B0D3722378A886001439FF /* Assets.xcassets in Resources */,
 				03B0D3A22378BDF5001439FF /* Dashboard.storyboard in Resources */,
 			);
@@ -525,7 +529,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */ = {
+		03B0D3632378A885001439FF /* Build configuration list for PBXProject "Forget-Me-Not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03B0D3852378A886001439FF /* Debug */,
