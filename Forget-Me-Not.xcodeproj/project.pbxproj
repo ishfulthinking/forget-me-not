@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034E7651239D729F006C0958 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E7650239D729F006C0958 /* DashboardViewModel.swift */; };
+		034E7653239E1419006C0958 /* MoodLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E7652239E1419006C0958 /* MoodLogView.swift */; };
+		034E7655239E25EE006C0958 /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E7654239E25EE006C0958 /* MedicationView.swift */; };
+		034E766323A0E7C3006C0958 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766223A0E7C3006C0958 /* JournalEntry.swift */; };
+		034E766523A0EA64006C0958 /* AddJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766423A0EA63006C0958 /* AddJournalEntryViewController.swift */; };
+		034E766723A0EA92006C0958 /* DisplayJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766623A0EA91006C0958 /* DisplayJournalEntryViewController.swift */; };
+		034E766923A0EABA006C0958 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766823A0EABA006C0958 /* JournalView.swift */; };
 		03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36B2378A885001439FF /* AppDelegate.swift */; };
 		03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36D2378A885001439FF /* SceneDelegate.swift */; };
 		03B0D3702378A885001439FF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36F2378A885001439FF /* DashboardView.swift */; };
@@ -20,7 +27,6 @@
 		03B0D39C2378BA41001439FF /* SelfCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39B2378BA41001439FF /* SelfCareViewController.swift */; };
 		03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39D2378BA57001439FF /* MedicationViewController.swift */; };
 		03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39F2378BAC5001439FF /* JournalViewController.swift */; };
-		03B0D3A22378BDF5001439FF /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3A12378BDF5001439FF /* Dashboard.storyboard */; };
 		03B0D3AC237A3146001439FF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AB237A3146001439FF /* UserData.swift */; };
 		03B0D3AE237A3C27001439FF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AD237A3C27001439FF /* Styles.swift */; };
 		FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */; };
@@ -37,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034E7650239D729F006C0958 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		034E7652239E1419006C0958 /* MoodLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogView.swift; sourceTree = "<group>"; };
+		034E7654239E25EE006C0958 /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		034E766223A0E7C3006C0958 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		034E766423A0EA63006C0958 /* AddJournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddJournalEntryViewController.swift; sourceTree = "<group>"; };
+		034E766623A0EA91006C0958 /* DisplayJournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayJournalEntryViewController.swift; sourceTree = "<group>"; };
+		034E766823A0EABA006C0958 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
 		03B0D3682378A885001439FF /* forget-me-not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "forget-me-not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B0D36B2378A885001439FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B0D36D2378A885001439FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +67,6 @@
 		03B0D39B2378BA41001439FF /* SelfCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareViewController.swift; sourceTree = "<group>"; };
 		03B0D39D2378BA57001439FF /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
 		03B0D39F2378BAC5001439FF /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
-		03B0D3A12378BDF5001439FF /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		03B0D3AB237A3146001439FF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		03B0D3AD237A3C27001439FF /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelfCare.storyboard; sourceTree = "<group>"; };
@@ -78,6 +90,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034E764F239D5BE4006C0958 /* DataComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataComponents;
+			sourceTree = "<group>";
+		};
 		03B0D35F2378A885001439FF = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +126,7 @@
 				03B0D3712378A886001439FF /* Assets.xcassets */,
 				03B0D3762378A886001439FF /* LaunchScreen.storyboard */,
 				03B0D3792378A886001439FF /* Info.plist */,
+				034E764F239D5BE4006C0958 /* DataComponents */,
 				03B0D3732378A886001439FF /* Preview Content */,
 			);
 			path = "forget-me-not";
@@ -133,11 +153,11 @@
 			isa = PBXGroup;
 			children = (
 				03B0D3912378B470001439FF /* TabBarController.swift */,
-				03B0D3962378B9C1001439FF /* Journal */,
 				03B0D3902378B44D001439FF /* Dashboard */,
-				03B0D3982378B9DA001439FF /* Medication */,
-				03B0D3972378B9D2001439FF /* SelfCare */,
 				03B0D3952378B9AE001439FF /* MoodLog */,
+				03B0D3962378B9C1001439FF /* Journal */,
+				03B0D3972378B9D2001439FF /* SelfCare */,
+				03B0D3982378B9DA001439FF /* Medication */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -147,7 +167,7 @@
 			children = (
 				03B0D36F2378A885001439FF /* DashboardView.swift */,
 				03B0D3932378B7EB001439FF /* DashboardViewController.swift */,
-				03B0D3A12378BDF5001439FF /* Dashboard.storyboard */,
+				034E7650239D729F006C0958 /* DashboardViewModel.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 		03B0D3952378B9AE001439FF /* MoodLog */ = {
 			isa = PBXGroup;
 			children = (
+				034E7652239E1419006C0958 /* MoodLogView.swift */,
 				03B0D3992378B9F0001439FF /* MoodLogViewController.swift */,
 			);
 			path = MoodLog;
@@ -163,7 +184,11 @@
 		03B0D3962378B9C1001439FF /* Journal */ = {
 			isa = PBXGroup;
 			children = (
+				034E766823A0EABA006C0958 /* JournalView.swift */,
 				03B0D39F2378BAC5001439FF /* JournalViewController.swift */,
+				034E766223A0E7C3006C0958 /* JournalEntry.swift */,
+				034E766423A0EA63006C0958 /* AddJournalEntryViewController.swift */,
+				034E766623A0EA91006C0958 /* DisplayJournalEntryViewController.swift */,
 			);
 			path = Journal;
 			sourceTree = "<group>";
@@ -180,6 +205,7 @@
 		03B0D3982378B9DA001439FF /* Medication */ = {
 			isa = PBXGroup;
 			children = (
+				034E7654239E25EE006C0958 /* MedicationView.swift */,
 				03B0D39D2378BA57001439FF /* MedicationViewController.swift */,
 			);
 			path = Medication;
@@ -242,7 +268,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "Forget-Me-Not" */;
+			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -270,7 +296,6 @@
 				03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */,
 				FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */,
 				03B0D3722378A886001439FF /* Assets.xcassets in Resources */,
-				03B0D3A22378BDF5001439FF /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +316,21 @@
 				03B0D3AE237A3C27001439FF /* Styles.swift in Sources */,
 				03B0D39A2378B9F0001439FF /* MoodLogViewController.swift in Sources */,
 				03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */,
+				034E7651239D729F006C0958 /* DashboardViewModel.swift in Sources */,
 				03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */,
+				034E7653239E1419006C0958 /* MoodLogView.swift in Sources */,
+				034E766923A0EABA006C0958 /* JournalView.swift in Sources */,
 				03B0D3922378B470001439FF /* TabBarController.swift in Sources */,
 				03B0D3942378B7EB001439FF /* DashboardViewController.swift in Sources */,
 				03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */,
+				034E766723A0EA92006C0958 /* DisplayJournalEntryViewController.swift in Sources */,
 				03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */,
 				03B0D39C2378BA41001439FF /* SelfCareViewController.swift in Sources */,
+				034E766523A0EA64006C0958 /* AddJournalEntryViewController.swift in Sources */,
 				03B0D3AC237A3146001439FF /* UserData.swift in Sources */,
+				034E766323A0E7C3006C0958 /* JournalEntry.swift in Sources */,
 				03B0D3702378A885001439FF /* DashboardView.swift in Sources */,
+				034E7655239E25EE006C0958 /* MedicationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03B0D3632378A885001439FF /* Build configuration list for PBXProject "Forget-Me-Not" */ = {
+		03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03B0D3852378A886001439FF /* Debug */,
