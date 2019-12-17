@@ -10,42 +10,45 @@ import Foundation
 import UIKit
 
 class TabBarController: UITabBarController, UITabBarControllerDelegate {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        delegate = self
+        tabBar.barTintColor = UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1.0)
+        setupTabBar()
+        print("Loaded navigation tab bar.")
     }
-        
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        let dashboardViewController = DashboardViewController()
-        dashboardViewController.tabBarItem = UITabBarItem(title: "Dashboard", image: UIImage(named: "home.png"), selectedImage: UIImage(named: "home.png"))
-        
-        let moodLogViewController = MoodLogViewController()
-        moodLogViewController.tabBarItem = UITabBarItem(title: "Mood Log", image: UIImage(named: "thought.png"), selectedImage: UIImage(named: "thought.png"))
-        
-        let journalViewController = JournalViewController()
-        journalViewController.tabBarItem = UITabBarItem(title: "Journal Log", image: UIImage(named: "journal.png"), selectedImage: UIImage(named: "journal.png"))
-        
-        let selfCareViewController = SelfCareViewController()
-        selfCareViewController.tabBarItem = UITabBarItem(title: "Self Care", image: UIImage(named: "selfcare.png"), selectedImage: UIImage(named: "selfcare.png"))
-        
-        let medicationViewController = MedicationViewController()
-        medicationViewController.tabBarItem = UITabBarItem(title: "Medication", image: UIImage(named: "medication.png"), selectedImage: UIImage(named: "medication.png"))
-        
-        self.viewControllers = [
+
+    func setupTabBar() {
+        let dashboardViewController = createTabBarController(vc: DashboardViewController(), title: "Dashboard", image: #imageLiteral(resourceName: "home"), selectedImage: #imageLiteral(resourceName: "home"))
+        let moodLogViewController = createTabBarController(vc: MoodLogViewController(), title: "Mood Log", image: #imageLiteral(resourceName: "thought"), selectedImage: #imageLiteral(resourceName: "thought"))
+        let journalViewController = createTabBarController(vc: JournalViewController(), title: "Journal", image: #imageLiteral(resourceName: "journal"), selectedImage: #imageLiteral(resourceName: "journal"))
+        let selfCareViewController = createTabBarController(vc: SelfCareViewController(), title: "Self Care", image: #imageLiteral(resourceName: "selfcare"), selectedImage: #imageLiteral(resourceName: "selfcare"))
+        let medicationViewController = createTabBarController(vc: MedicationViewController(), title: "Medication", image: #imageLiteral(resourceName: "medication"), selectedImage: #imageLiteral(resourceName: "medication"))
+
+
+        viewControllers = [
             dashboardViewController,
             moodLogViewController,
             journalViewController,
             selfCareViewController,
             medicationViewController
         ]
-    }
 
-    // Delegate methods
-    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        print("Should select viewController: \(viewController.title ?? "") ?")
-        return true;
+        guard let items = tabBar.items else { return }
+        for item in items {
+            item.imageInsets = UIEdgeInsets.init(top: 4, left: 0, bottom: -4, right: 0)
+        }
+    }
+}
+
+// Helper to make tab bar creation prettier
+extension UITabBarController {
+    func createTabBarController(vc: UIViewController, title: String, image: UIImage, selectedImage: UIImage) -> UINavigationController {
+        let viewController = vc
+        let tabBarController = UINavigationController(rootViewController: viewController)
+        tabBarController.tabBarItem.title = title
+        tabBarController.tabBarItem.image = image
+        tabBarController.tabBarItem.selectedImage =  selectedImage
+        return tabBarController
     }
 }

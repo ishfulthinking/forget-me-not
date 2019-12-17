@@ -1,15 +1,16 @@
 //
-//  MainMenuView.swift
+//  MoodLogView.swift
 //  forget-me-not
 //
-//  Created by Ishmael Perez on 11/10/19.
+//  Created by Ishmael Perez on 12/9/19.
 //  Copyright © 2019 Appollo. All rights reserved.
 //
 
+import Foundation
 import SwiftUI
 import UIKit
 
-class DashboardView: UIScrollView {
+class MoodLogView: UIScrollView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -34,8 +35,8 @@ class DashboardView: UIScrollView {
 
     let greetingLabel: UILabel = {
         let instance = UILabel()
-        instance.text = "Welcome back!"
         instance.textAlignment = .center
+        instance.text = "Welcome back!"
         instance.translatesAutoresizingMaskIntoConstraints = false
         return instance
     }()
@@ -59,9 +60,10 @@ class DashboardView: UIScrollView {
 
     func setupViews() {
         print("Setting up views for dashboard...")
-        backgroundColor = .fmnPurple
-
+        backgroundColor = UIColor(red: 130/255, green: 130/255, blue: 238/255, alpha: 1.0)
         addSubview(greetingContainer)
+
+        greetingContainer.addSubview(greetingLabel)
         NSLayoutConstraint.activate([
             greetingContainer.topAnchor.constraint(equalTo: topAnchor, constant: 16),
             greetingContainer.leftAnchor.constraint(equalTo: leftAnchor, constant: 16),
@@ -69,13 +71,6 @@ class DashboardView: UIScrollView {
             greetingContainer.heightAnchor.constraint(equalTo: heightAnchor, constant: 40),
             greetingContainer.widthAnchor.constraint(equalTo: widthAnchor)
         ])
-
-        greetingContainer.addSubview(greetingLabel)
-        NSLayoutConstraint.activate([
-            greetingLabel.topAnchor.constraint(equalTo: topAnchor, constant: 16)
-        ])
-        greetingLabel.center = self.center
-        greetingLabel.center.x = self.center.x
 
         addSubview(statsContainer)
         statsContainer.addSubview(todayContainer)

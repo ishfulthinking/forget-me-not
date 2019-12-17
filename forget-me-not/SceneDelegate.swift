@@ -25,16 +25,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = TabBarController()
         window?.makeKeyAndVisible()
-        
-//            let window = UIWindow(frame: UIScreen.main.bounds)
-//            window.rootViewController = UINavigationController(rootViewController: TabBarController())
-//            self.window = window
-//            window.makeKeyAndVisible()
-//            print("Scene delegate did its job.")
-//        } else { return }
-//
-//        guard let windowScene = (scene as? UIWindowScene) else { return }
-        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
