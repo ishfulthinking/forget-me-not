@@ -10,15 +10,11 @@ import Foundation
 import SwiftUI
 import UIKit
 
-class MoodLogView: UIScrollView {
+class MoodLogView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
-
-        showsVerticalScrollIndicator = false
-        showsHorizontalScrollIndicator = false
-        isScrollEnabled = false
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -27,53 +23,71 @@ class MoodLogView: UIScrollView {
 
     // MARK: Components
 
-    let greetingContainer: UIView = {
-        let instance = UIView()
+    let stackView: UIStackView = {
+        let instance = UIStackView(frame: .zero)
         instance.translatesAutoresizingMaskIntoConstraints = false
+        instance.axis = .vertical
+        instance.isLayoutMarginsRelativeArrangement = true
+        instance.layoutMargins = UIEdgeInsets(top: 16,
+                                              left: 16,
+                                              bottom: 16,
+                                              right: 16)
         return instance
     }()
 
-    let greetingLabel: UILabel = {
+    let feelingLabel: UILabel = {
         let instance = UILabel()
         instance.textAlignment = .center
-        instance.text = "Welcome back!"
+        instance.text = "Today I feel..."
         instance.translatesAutoresizingMaskIntoConstraints = false
         return instance
     }()
 
-    let statsContainer: UIStackView = {
-        let instance =  UIStackView()
+    let moodButton: UIButton = {
+        let instance = UIButton()
         return instance
     }()
 
-    let todayContainer: UITableView = {
-        let instance = UITableView()
+    let reasonLabel: UILabel = {
+        let instance = UILabel()
+        instance.textAlignment = .center
+        instance.text = "because..."
+        instance.translatesAutoresizingMaskIntoConstraints = false
         return instance
     }()
 
-    let historyContainer: UITableView = {
-        let instance = UITableView()
+    let reasonEntryField: UITextField = {
+        let instance = UITextField()
+        instance.placeholder = "I ate an entire cheese pizza on my own"
+        instance.isEnabled = true
+        instance.translatesAutoresizingMaskIntoConstraints = false
         return instance
     }()
 
     // MARK: View setup
 
     func setupViews() {
-        print("Setting up views for dashboard...")
-        backgroundColor = UIColor(red: 130/255, green: 130/255, blue: 238/255, alpha: 1.0)
-        addSubview(greetingContainer)
-
-        greetingContainer.addSubview(greetingLabel)
+        backgroundColor = .gray
+        addSubview(stackView)
         NSLayoutConstraint.activate([
-            greetingContainer.topAnchor.constraint(equalTo: topAnchor, constant: 16),
-            greetingContainer.leftAnchor.constraint(equalTo: leftAnchor, constant: 16),
-            greetingContainer.rightAnchor.constraint(equalTo: rightAnchor, constant: -16),
-            greetingContainer.heightAnchor.constraint(equalTo: heightAnchor, constant: 40),
-            greetingContainer.widthAnchor.constraint(equalTo: widthAnchor)
+            stackView.topAnchor.constraint(equalTo: topAnchor),
+            stackView.leftAnchor.constraint(equalTo: leftAnchor),
+            stackView.rightAnchor.constraint(equalTo: rightAnchor),
+            stackView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
 
-        addSubview(statsContainer)
-        statsContainer.addSubview(todayContainer)
-        statsContainer.addSubview(historyContainer)
+        stackView.addArrangedSubviews([
+            feelingLabel,
+            moodButton,
+            reasonLabel,
+            reasonEntryField
+        ])
+
+        stackView.setCustomSpacings(spacing: 16, views: [
+            feelingLabel,
+            moodButton,
+            reasonLabel,
+            reasonEntryField
+        ])
     }
 }

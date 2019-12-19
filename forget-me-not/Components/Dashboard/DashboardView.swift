@@ -37,6 +37,7 @@ class DashboardView: UIScrollView {
         instance.text = "Welcome back!"
         instance.textAlignment = .center
         instance.translatesAutoresizingMaskIntoConstraints = false
+        instance.font = UIFont(name: .standard, weight: .regular, style: .regular, size: 16)
         return instance
     }()
 

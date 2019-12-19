@@ -25,6 +25,7 @@ class JournalView: UIView {
     let journalTable: UITableView = {
         let instance = UITableView()
         instance.translatesAutoresizingMaskIntoConstraints = false
+        instance.backgroundColor = .fmnDarkBlue
         return instance
     }()
 
