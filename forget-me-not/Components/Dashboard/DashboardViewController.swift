@@ -31,5 +31,6 @@ class DashboardViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Dashboard"
+        print("Loaded DashboardViewController.")
     }
 }

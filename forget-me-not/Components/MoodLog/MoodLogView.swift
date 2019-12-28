@@ -14,11 +14,22 @@ class MoodLogView: UIScrollView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupViews()
-
         showsVerticalScrollIndicator = false
         showsHorizontalScrollIndicator = false
         isScrollEnabled = false
+        
+        for family: String in UIFont.familyNames
+        {
+            print(family)
+            if (Array(family)[0] == "R") {
+                for names: String in UIFont.fontNames(forFamilyName: family)
+                {
+                    print("== \(names)")
+                }
+            }
+        }
+        
+        setupViews()
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -27,53 +38,44 @@ class MoodLogView: UIScrollView {
 
     // MARK: Components
 
-    let greetingContainer: UIView = {
-        let instance = UIView()
-        instance.translatesAutoresizingMaskIntoConstraints = false
+    let containerView: CardView = {
+        let instance = CardView()
+        instance.backgroundColor = UIColor.Transparencies.lowLight
         return instance
     }()
 
     let greetingLabel: UILabel = {
         let instance = UILabel()
+        instance.text = "Today I'm feeling..."
+        instance.font = UIFont(type: .system, style: .bold, size: 20.0)
+//        instance.font = UIFont(name: "Rubik-Regular.ttf", size: 20.0)
         instance.textAlignment = .center
-        instance.text = "Welcome back!"
+        instance.numberOfLines = 0;
         instance.translatesAutoresizingMaskIntoConstraints = false
         return instance
     }()
-
-    let statsContainer: UIStackView = {
-        let instance =  UIStackView()
-        return instance
-    }()
-
-    let todayContainer: UITableView = {
-        let instance = UITableView()
-        return instance
-    }()
-
-    let historyContainer: UITableView = {
-        let instance = UITableView()
-        return instance
-    }()
-
+    
     // MARK: View setup
 
     func setupViews() {
-        print("Setting up views for dashboard...")
-        backgroundColor = UIColor(red: 130/255, green: 130/255, blue: 238/255, alpha: 1.0)
-        addSubview(greetingContainer)
-
-        greetingContainer.addSubview(greetingLabel)
+        print("Setting up MoodLogView.")
+        backgroundColor = UIColor.Colors.fmnYellow
+        
+        addSubview(containerView)
         NSLayoutConstraint.activate([
-            greetingContainer.topAnchor.constraint(equalTo: topAnchor, constant: 16),
-            greetingContainer.leftAnchor.constraint(equalTo: leftAnchor, constant: 16),
-            greetingContainer.rightAnchor.constraint(equalTo: rightAnchor, constant: -16),
-            greetingContainer.heightAnchor.constraint(equalTo: heightAnchor, constant: 40),
-            greetingContainer.widthAnchor.constraint(equalTo: widthAnchor)
+            containerView.topAnchor.constraint(equalTo: topAnchor, constant: 16),
+            containerView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
+            containerView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
+            containerView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            containerView.centerYAnchor.constraint(equalTo: centerYAnchor)
         ])
-
-        addSubview(statsContainer)
-        statsContainer.addSubview(todayContainer)
-        statsContainer.addSubview(historyContainer)
+        
+        containerView.addSubview(greetingLabel)
+        NSLayoutConstraint.activate([
+            greetingLabel.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 16),
+            greetingLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 16),
+            greetingLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -16),
+            greetingLabel.centerXAnchor.constraint(equalTo: containerView.centerXAnchor)
+        ])
     }
 }

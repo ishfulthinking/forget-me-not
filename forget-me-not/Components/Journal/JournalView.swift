@@ -32,7 +32,7 @@ class JournalView: UIView {
 
     func setupViews() {
         print("Setting up views for journal...")
-        backgroundColor = .fmnPurple
+        backgroundColor = UIColor.Colors.fmnPurple
 
         addSubview(journalTable)
     }

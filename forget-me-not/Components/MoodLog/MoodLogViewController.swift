@@ -11,11 +11,27 @@ import Foundation
 import UIKit
 
 class MoodLogViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
 
-        view.backgroundColor = UIColor(red: 80/255, green: 100/255, blue: 110/255, alpha: 1.0)
+    var contentView: MoodLogView {
+        return view as! MoodLogView
+    }
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        extendedLayoutIncludesOpaqueBars = true
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented in MoodLogViewController")
+    }
+    
+    public override func loadView() {
+        view = MoodLogView(frame: UIScreen.main.bounds)
+    }
+    
+    override public func viewDidLoad() {
+        super.viewDidLoad()
         navigationItem.title = "Mood Log"
-        print("Loaded mood log view controller.")
+        print("Loaded MoodLogViewController.")
     }
 }

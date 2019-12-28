@@ -11,7 +11,7 @@ import UIKit
 class SelfCareViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .fmnPurple
+        view.backgroundColor = UIColor.Colors.fmnPink
         self.title = "Self Care"
         print("Loaded self care view controller.")
     }

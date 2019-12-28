@@ -28,7 +28,13 @@
 		03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39D2378BA57001439FF /* MedicationViewController.swift */; };
 		03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39F2378BAC5001439FF /* JournalViewController.swift */; };
 		03B0D3AC237A3146001439FF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AB237A3146001439FF /* UserData.swift */; };
-		03B0D3AE237A3C27001439FF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AD237A3C27001439FF /* Styles.swift */; };
+		03B0D3AE237A3C27001439FF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AD237A3C27001439FF /* Theme.swift */; };
+		7A83DCE923B3E6D300932FC4 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A83DCE823B3E6D300932FC4 /* Rubik-Regular.ttf */; };
+		7A83DCEB23B3E7C600932FC4 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A83DCEA23B3E7C600932FC4 /* Rubik-Bold.ttf */; };
+		7A83DCED23B3E7E100932FC4 /* Rubik-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A83DCEC23B3E7E100932FC4 /* Rubik-Bold-Italic.ttf */; };
+		7A83DCEF23B3E7F500932FC4 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A83DCEE23B3E7F500932FC4 /* Rubik-Italic.ttf */; };
+		7A83DCF223B4396D00932FC4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DCF123B4396D00932FC4 /* CardView.swift */; };
+		7A83DCF423B4480B00932FC4 /* MoodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DCF323B4480B00932FC4 /* MoodButton.swift */; };
 		FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +74,13 @@
 		03B0D39D2378BA57001439FF /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
 		03B0D39F2378BAC5001439FF /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		03B0D3AB237A3146001439FF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		03B0D3AD237A3C27001439FF /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		03B0D3AD237A3C27001439FF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		7A83DCE823B3E6D300932FC4 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		7A83DCEA23B3E7C600932FC4 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		7A83DCEC23B3E7E100932FC4 /* Rubik-Bold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold-Italic.ttf"; sourceTree = "<group>"; };
+		7A83DCEE23B3E7F500932FC4 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		7A83DCF123B4396D00932FC4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7A83DCF323B4480B00932FC4 /* MoodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodButton.swift; sourceTree = "<group>"; };
 		FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelfCare.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,13 +133,15 @@
 				03B0D36B2378A885001439FF /* AppDelegate.swift */,
 				03B0D36D2378A885001439FF /* SceneDelegate.swift */,
 				03B0D3AB237A3146001439FF /* UserData.swift */,
-				03B0D3AD237A3C27001439FF /* Styles.swift */,
+				03B0D3AD237A3C27001439FF /* Theme.swift */,
 				03B0D38F2378B442001439FF /* Components */,
-				03B0D3712378A886001439FF /* Assets.xcassets */,
 				03B0D3762378A886001439FF /* LaunchScreen.storyboard */,
 				03B0D3792378A886001439FF /* Info.plist */,
 				034E764F239D5BE4006C0958 /* DataComponents */,
+				7A83DCF023B4391300932FC4 /* UIComponents */,
 				03B0D3732378A886001439FF /* Preview Content */,
+				7A83DCE723B3E69400932FC4 /* Fonts */,
+				03B0D3712378A886001439FF /* Assets.xcassets */,
 			);
 			path = "forget-me-not";
 			sourceTree = "<group>";
@@ -211,6 +225,26 @@
 			path = Medication;
 			sourceTree = "<group>";
 		};
+		7A83DCE723B3E69400932FC4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7A83DCE823B3E6D300932FC4 /* Rubik-Regular.ttf */,
+				7A83DCEE23B3E7F500932FC4 /* Rubik-Italic.ttf */,
+				7A83DCEA23B3E7C600932FC4 /* Rubik-Bold.ttf */,
+				7A83DCEC23B3E7E100932FC4 /* Rubik-Bold-Italic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7A83DCF023B4391300932FC4 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				7A83DCF123B4396D00932FC4 /* CardView.swift */,
+				7A83DCF323B4480B00932FC4 /* MoodButton.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,7 +302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */;
+			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "Forget-Me-Not" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -293,8 +327,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */,
+				7A83DCEB23B3E7C600932FC4 /* Rubik-Bold.ttf in Resources */,
 				03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */,
 				FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */,
+				7A83DCEF23B3E7F500932FC4 /* Rubik-Italic.ttf in Resources */,
+				7A83DCE923B3E6D300932FC4 /* Rubik-Regular.ttf in Resources */,
+				7A83DCED23B3E7E100932FC4 /* Rubik-Bold-Italic.ttf in Resources */,
 				03B0D3722378A886001439FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,15 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B0D3AE237A3C27001439FF /* Styles.swift in Sources */,
+				03B0D3AE237A3C27001439FF /* Theme.swift in Sources */,
 				03B0D39A2378B9F0001439FF /* MoodLogViewController.swift in Sources */,
 				03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */,
 				034E7651239D729F006C0958 /* DashboardViewModel.swift in Sources */,
 				03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */,
 				034E7653239E1419006C0958 /* MoodLogView.swift in Sources */,
 				034E766923A0EABA006C0958 /* JournalView.swift in Sources */,
+				7A83DCF223B4396D00932FC4 /* CardView.swift in Sources */,
 				03B0D3922378B470001439FF /* TabBarController.swift in Sources */,
 				03B0D3942378B7EB001439FF /* DashboardViewController.swift in Sources */,
+				7A83DCF423B4480B00932FC4 /* MoodButton.swift in Sources */,
 				03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */,
 				034E766723A0EA92006C0958 /* DisplayJournalEntryViewController.swift in Sources */,
 				03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */,
@@ -561,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */ = {
+		03B0D3632378A885001439FF /* Build configuration list for PBXProject "Forget-Me-Not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03B0D3852378A886001439FF /* Debug */,

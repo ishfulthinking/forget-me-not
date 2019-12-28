@@ -90,7 +90,7 @@ class MedicationCell: UITableViewCell {
         instance.clipsToBounds = true
         instance.setImage(UIImage(named:"pencil.png")?.withTintColor(.white), for: .normal)
         instance.imageEdgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
-        instance.backgroundColor = .fmnDarkerBlue
+        instance.backgroundColor = UIColor.Colors.fmnBlue
         instance.tintColor = .white
         instance.translatesAutoresizingMaskIntoConstraints = false
         return instance

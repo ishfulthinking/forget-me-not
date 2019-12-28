@@ -18,5 +18,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Rubik-Regular.ttf</string>
+		<string>Rubik-Italic.ttf</string>
+		<string>Rubik-Bold.ttf</string>
+		<string>Rubik-Bold-Italic.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -34,7 +34,9 @@ class DashboardView: UIScrollView {
 
     let greetingLabel: UILabel = {
         let instance = UILabel()
+        instance.font = UIFont(name: "Rubik-Regular.ttf", size: 24.0)
         instance.text = "Welcome back!"
+//        instance.font = UIFont(type: .system, style: .boldItalic, size: 24.0)
         instance.textAlignment = .center
         instance.translatesAutoresizingMaskIntoConstraints = false
         return instance
@@ -59,15 +61,14 @@ class DashboardView: UIScrollView {
 
     func setupViews() {
         print("Setting up views for dashboard...")
-        backgroundColor = .fmnPurple
+        backgroundColor = UIColor.Colors.fmnViolet
 
         addSubview(greetingContainer)
         NSLayoutConstraint.activate([
             greetingContainer.topAnchor.constraint(equalTo: topAnchor, constant: 16),
             greetingContainer.leftAnchor.constraint(equalTo: leftAnchor, constant: 16),
             greetingContainer.rightAnchor.constraint(equalTo: rightAnchor, constant: -16),
-            greetingContainer.heightAnchor.constraint(equalTo: heightAnchor, constant: 40),
-            greetingContainer.widthAnchor.constraint(equalTo: widthAnchor)
+            greetingContainer.heightAnchor.constraint(equalTo: heightAnchor, constant: 40)
         ])
 
         greetingContainer.addSubview(greetingLabel)
