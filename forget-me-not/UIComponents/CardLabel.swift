@@ -1,21 +1,24 @@
 //
-//  CardView.swift
+//  CardLabel.swift
 //  forget-me-not
 //
-//  Created by Ish Perez on 12/25/19.
+//  Created by Ish Perez on 12/28/19.
 //  Copyright © 2019 Appollo. All rights reserved.
 //
 
-import Foundation
-import UIKit
+import SwiftUI
 
-class CardView: UIView {
+class CardLabel: UILabel {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
+            
+        self.textColor = .black
+        self.font = UIFont(type: .system, style: .regular, size: 12.0)
+        self.textAlignment = .center
+        self.numberOfLines = 0
+        self.isEnabled = true
+        self.isHighlighted = false
         self.backgroundColor = UIColor.Transparencies.medLight
-        self.layer.cornerRadius = 8
-        self.layer.masksToBounds = true
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     

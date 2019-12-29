@@ -11,7 +11,7 @@ import UIKit
 
 extension UIFont {
     struct Fonts {
-        static let system = "Helvetica-Neue"
+        static let system = "Helvetica"
     }
     
     public enum FontType: String {
@@ -34,13 +34,13 @@ extension UIFont {
         public var description: String {
             switch self {
             case .regular:
-                return "-Regular.ttf"
+                return ""
             case .italic:
-                return "-Italic.ttf"
+                return "-Oblique"
             case .bold:
-                return "-Bold.ttf"
+                return "-Bold"
             case .boldItalic:
-                return "-Bold-Italic.ttf"
+                return "-BoldOblique"
             }
         }
     }
@@ -65,7 +65,11 @@ extension UIColor {
     
     struct Transparencies {
         static let lowLight = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.2)
+        static let medLight = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.4)
+        static let highLight = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.6)
         static let lowShade = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.2)
+        static let medShade = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.4)
+        static let highShade = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.6)
     }
     
     convenience init(hex: Int) {

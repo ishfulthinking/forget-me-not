@@ -27,11 +27,12 @@ class MoodLogViewController: UIViewController {
     
     public override func loadView() {
         view = MoodLogView(frame: UIScreen.main.bounds)
+        navigationItem.title = "Mood Log"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Mood Log"
         print("Loaded MoodLogViewController.")
     }
 }

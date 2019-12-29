@@ -21,7 +21,7 @@ class MoodLogView: UIScrollView {
         for family: String in UIFont.familyNames
         {
             print(family)
-            if (Array(family)[0] == "R") {
+            if (Array(family)[0] == "H") {
                 for names: String in UIFont.fontNames(forFamilyName: family)
                 {
                     print("== \(names)")
@@ -38,20 +38,23 @@ class MoodLogView: UIScrollView {
 
     // MARK: Components
 
-    let containerView: CardView = {
-        let instance = CardView()
+    let containerView: UIStackView = {
+        let instance = UIStackView()
         instance.backgroundColor = UIColor.Transparencies.lowLight
         return instance
     }()
 
-    let greetingLabel: UILabel = {
-        let instance = UILabel()
+    let todayEntryLabel: CardLabel = {
+        let instance = CardLabel()
         instance.text = "Today I'm feeling..."
+        instance.font = UIFont(type: .system, style: .bold, size: 22.0)
+        return instance
+    }()
+    
+    let previousEntryLabel: CardLabel = {
+        let instance = CardLabel()
+        instance.text = "Previous Entries"
         instance.font = UIFont(type: .system, style: .bold, size: 20.0)
-//        instance.font = UIFont(name: "Rubik-Regular.ttf", size: 20.0)
-        instance.textAlignment = .center
-        instance.numberOfLines = 0;
-        instance.translatesAutoresizingMaskIntoConstraints = false
         return instance
     }()
     
