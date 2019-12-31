@@ -72,13 +72,5 @@ class MoodLogView: UIScrollView {
             containerView.centerXAnchor.constraint(equalTo: centerXAnchor),
             containerView.centerYAnchor.constraint(equalTo: centerYAnchor)
         ])
-        
-        containerView.addSubview(greetingLabel)
-        NSLayoutConstraint.activate([
-            greetingLabel.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 16),
-            greetingLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 16),
-            greetingLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -16),
-            greetingLabel.centerXAnchor.constraint(equalTo: containerView.centerXAnchor)
-        ])
     }
 }
