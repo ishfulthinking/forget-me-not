@@ -7,80 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034E7651239D729F006C0958 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E7650239D729F006C0958 /* DashboardViewModel.swift */; };
-		034E7653239E1419006C0958 /* MoodLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E7652239E1419006C0958 /* MoodLogView.swift */; };
-		034E7655239E25EE006C0958 /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E7654239E25EE006C0958 /* MedicationView.swift */; };
-		034E766323A0E7C3006C0958 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766223A0E7C3006C0958 /* JournalEntry.swift */; };
-		034E766523A0EA64006C0958 /* AddJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766423A0EA63006C0958 /* AddJournalEntryViewController.swift */; };
-		034E766723A0EA92006C0958 /* DisplayJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766623A0EA91006C0958 /* DisplayJournalEntryViewController.swift */; };
-		034E766923A0EABA006C0958 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E766823A0EABA006C0958 /* JournalView.swift */; };
-		03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36B2378A885001439FF /* AppDelegate.swift */; };
-		03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36D2378A885001439FF /* SceneDelegate.swift */; };
-		03B0D3702378A885001439FF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D36F2378A885001439FF /* DashboardView.swift */; };
-		03B0D3722378A886001439FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3712378A886001439FF /* Assets.xcassets */; };
-		03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3742378A886001439FF /* Preview Assets.xcassets */; };
-		03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B0D3762378A886001439FF /* LaunchScreen.storyboard */; };
-		03B0D3832378A886001439FF /* forget_me_notUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3822378A886001439FF /* forget_me_notUITests.swift */; };
-		03B0D3922378B470001439FF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3912378B470001439FF /* TabBarController.swift */; };
-		03B0D3942378B7EB001439FF /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3932378B7EB001439FF /* DashboardViewController.swift */; };
-		03B0D39A2378B9F0001439FF /* MoodLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3992378B9F0001439FF /* MoodLogViewController.swift */; };
-		03B0D39C2378BA41001439FF /* SelfCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39B2378BA41001439FF /* SelfCareViewController.swift */; };
-		03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39D2378BA57001439FF /* MedicationViewController.swift */; };
-		03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D39F2378BAC5001439FF /* JournalViewController.swift */; };
-		03B0D3AC237A3146001439FF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AB237A3146001439FF /* UserData.swift */; };
-		03B0D3AE237A3C27001439FF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0D3AD237A3C27001439FF /* Styles.swift */; };
-		FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */; };
+		7AC3127723C28A4A00277699 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3127523C28A4A00277699 /* Rubik-Bold.ttf */; };
+		7AC3127823C28A4A00277699 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3127623C28A4A00277699 /* Rubik-BoldItalic.ttf */; };
+		7AC3127B23C28A5500277699 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3127923C28A5500277699 /* Rubik-Italic.ttf */; };
+		7AC3127C23C28A5500277699 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3127A23C28A5500277699 /* Rubik-Regular.ttf */; };
+		7AC3127E23C2B6DF00277699 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3127D23C2B6DF00277699 /* JournalViewController.swift */; };
+		7AC3128323C2E40400277699 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3128123C2E40400277699 /* ActivitiesViewController.swift */; };
+		7AC3128423C2E40400277699 /* ActivitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3128223C2E40400277699 /* ActivitiesViewController.xib */; };
+		7AD08C7E23C2480C008C6EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD08C7D23C2480C008C6EAD /* AppDelegate.swift */; };
+		7AD08C8023C2480C008C6EAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD08C7F23C2480C008C6EAD /* SceneDelegate.swift */; };
+		7AD08C8723C2480C008C6EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD08C8523C2480C008C6EAD /* Main.storyboard */; };
+		7AD08C8A23C2480C008C6EAD /* Forget_Me_Not.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AD08C8823C2480C008C6EAD /* Forget_Me_Not.xcdatamodeld */; };
+		7AD08C8C23C24811008C6EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD08C8B23C24811008C6EAD /* Assets.xcassets */; };
+		7AD08C8F23C24811008C6EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD08C8D23C24811008C6EAD /* LaunchScreen.storyboard */; };
+		7AD08C9A23C24811008C6EAD /* Forget_Me_NotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD08C9923C24811008C6EAD /* Forget_Me_NotUITests.swift */; };
+		7AD08CA523C24A08008C6EAD /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD08CA423C24A08008C6EAD /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03B0D37F2378A886001439FF /* PBXContainerItemProxy */ = {
+		7AD08C9623C24811008C6EAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 03B0D3602378A885001439FF /* Project object */;
+			containerPortal = 7AD08C7223C2480C008C6EAD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 03B0D3672378A885001439FF;
-			remoteInfo = "forget-me-not";
+			remoteGlobalIDString = 7AD08C7923C2480C008C6EAD;
+			remoteInfo = "Forget-Me-Not";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034E7650239D729F006C0958 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
-		034E7652239E1419006C0958 /* MoodLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogView.swift; sourceTree = "<group>"; };
-		034E7654239E25EE006C0958 /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
-		034E766223A0E7C3006C0958 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
-		034E766423A0EA63006C0958 /* AddJournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddJournalEntryViewController.swift; sourceTree = "<group>"; };
-		034E766623A0EA91006C0958 /* DisplayJournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayJournalEntryViewController.swift; sourceTree = "<group>"; };
-		034E766823A0EABA006C0958 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
-		03B0D3682378A885001439FF /* forget-me-not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "forget-me-not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03B0D36B2378A885001439FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03B0D36D2378A885001439FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03B0D36F2378A885001439FF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		03B0D3712378A886001439FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03B0D3742378A886001439FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		03B0D3772378A886001439FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		03B0D3792378A886001439FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03B0D37E2378A886001439FF /* forget-me-notUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "forget-me-notUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03B0D3822378A886001439FF /* forget_me_notUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forget_me_notUITests.swift; sourceTree = "<group>"; };
-		03B0D3842378A886001439FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03B0D3912378B470001439FF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = "forget-me-not/Components/TabBarController.swift"; sourceTree = SOURCE_ROOT; };
-		03B0D3932378B7EB001439FF /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		03B0D3992378B9F0001439FF /* MoodLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogViewController.swift; sourceTree = "<group>"; };
-		03B0D39B2378BA41001439FF /* SelfCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareViewController.swift; sourceTree = "<group>"; };
-		03B0D39D2378BA57001439FF /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
-		03B0D39F2378BAC5001439FF /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
-		03B0D3AB237A3146001439FF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		03B0D3AD237A3C27001439FF /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelfCare.storyboard; sourceTree = "<group>"; };
+		7AC3127523C28A4A00277699 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		7AC3127623C28A4A00277699 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7AC3127923C28A5500277699 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		7AC3127A23C28A5500277699 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		7AC3127D23C2B6DF00277699 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		7AC3128123C2E40400277699 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		7AC3128223C2E40400277699 /* ActivitiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesViewController.xib; sourceTree = "<group>"; };
+		7AD08C7A23C2480C008C6EAD /* Forget-Me-Not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forget-Me-Not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD08C7D23C2480C008C6EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AD08C7F23C2480C008C6EAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AD08C8623C2480C008C6EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AD08C8923C2480C008C6EAD /* Forget_Me_Not.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Forget_Me_Not.xcdatamodel; sourceTree = "<group>"; };
+		7AD08C8B23C24811008C6EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AD08C8E23C24811008C6EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AD08C9023C24811008C6EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD08C9523C24811008C6EAD /* Forget-Me-NotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forget-Me-NotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD08C9923C24811008C6EAD /* Forget_Me_NotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forget_Me_NotUITests.swift; sourceTree = "<group>"; };
+		7AD08C9B23C24811008C6EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD08CA423C24A08008C6EAD /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03B0D3652378A885001439FF /* Frameworks */ = {
+		7AD08C7723C2480C008C6EAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03B0D37B2378A886001439FF /* Frameworks */ = {
+		7AD08C9223C24811008C6EAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,185 +74,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		034E764F239D5BE4006C0958 /* DataComponents */ = {
+		7AC3127423C2898E00277699 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				7AC3127523C28A4A00277699 /* Rubik-Bold.ttf */,
+				7AC3127623C28A4A00277699 /* Rubik-BoldItalic.ttf */,
+				7AC3127923C28A5500277699 /* Rubik-Italic.ttf */,
+				7AC3127A23C28A5500277699 /* Rubik-Regular.ttf */,
 			);
-			path = DataComponents;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
-		03B0D35F2378A885001439FF = {
+		7AD08C7123C2480C008C6EAD = {
 			isa = PBXGroup;
 			children = (
-				03B0D36A2378A885001439FF /* forget-me-not */,
-				03B0D3812378A886001439FF /* forget-me-notUITests */,
-				03B0D3692378A885001439FF /* Products */,
+				7AD08C7C23C2480C008C6EAD /* Forget-Me-Not */,
+				7AD08C9823C24811008C6EAD /* Forget-Me-NotUITests */,
+				7AD08C7B23C2480C008C6EAD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03B0D3692378A885001439FF /* Products */ = {
+		7AD08C7B23C2480C008C6EAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03B0D3682378A885001439FF /* forget-me-not.app */,
-				03B0D37E2378A886001439FF /* forget-me-notUITests.xctest */,
+				7AD08C7A23C2480C008C6EAD /* Forget-Me-Not.app */,
+				7AD08C9523C24811008C6EAD /* Forget-Me-NotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03B0D36A2378A885001439FF /* forget-me-not */ = {
+		7AD08C7C23C2480C008C6EAD /* Forget-Me-Not */ = {
 			isa = PBXGroup;
 			children = (
-				03B0D36B2378A885001439FF /* AppDelegate.swift */,
-				03B0D36D2378A885001439FF /* SceneDelegate.swift */,
-				03B0D3AB237A3146001439FF /* UserData.swift */,
-				03B0D3AD237A3C27001439FF /* Styles.swift */,
-				03B0D38F2378B442001439FF /* Components */,
-				03B0D3712378A886001439FF /* Assets.xcassets */,
-				03B0D3762378A886001439FF /* LaunchScreen.storyboard */,
-				03B0D3792378A886001439FF /* Info.plist */,
-				034E764F239D5BE4006C0958 /* DataComponents */,
-				03B0D3732378A886001439FF /* Preview Content */,
+				7AD08C7D23C2480C008C6EAD /* AppDelegate.swift */,
+				7AD08C7F23C2480C008C6EAD /* SceneDelegate.swift */,
+				7AD08C8D23C24811008C6EAD /* LaunchScreen.storyboard */,
+				7AD08C8523C2480C008C6EAD /* Main.storyboard */,
+				7AD08CA423C24A08008C6EAD /* DashboardViewController.swift */,
+				7AC3127D23C2B6DF00277699 /* JournalViewController.swift */,
+				7AC3128123C2E40400277699 /* ActivitiesViewController.swift */,
+				7AC3128223C2E40400277699 /* ActivitiesViewController.xib */,
+				7AD08C8B23C24811008C6EAD /* Assets.xcassets */,
+				7AD08C9023C24811008C6EAD /* Info.plist */,
+				7AD08C8823C2480C008C6EAD /* Forget_Me_Not.xcdatamodeld */,
+				7AC3127423C2898E00277699 /* Fonts */,
 			);
-			path = "forget-me-not";
+			path = "Forget-Me-Not";
 			sourceTree = "<group>";
 		};
-		03B0D3732378A886001439FF /* Preview Content */ = {
+		7AD08C9823C24811008C6EAD /* Forget-Me-NotUITests */ = {
 			isa = PBXGroup;
 			children = (
-				03B0D3742378A886001439FF /* Preview Assets.xcassets */,
+				7AD08C9923C24811008C6EAD /* Forget_Me_NotUITests.swift */,
+				7AD08C9B23C24811008C6EAD /* Info.plist */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		03B0D3812378A886001439FF /* forget-me-notUITests */ = {
-			isa = PBXGroup;
-			children = (
-				03B0D3822378A886001439FF /* forget_me_notUITests.swift */,
-				03B0D3842378A886001439FF /* Info.plist */,
-			);
-			path = "forget-me-notUITests";
-			sourceTree = "<group>";
-		};
-		03B0D38F2378B442001439FF /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				03B0D3912378B470001439FF /* TabBarController.swift */,
-				03B0D3902378B44D001439FF /* Dashboard */,
-				03B0D3952378B9AE001439FF /* MoodLog */,
-				03B0D3962378B9C1001439FF /* Journal */,
-				03B0D3972378B9D2001439FF /* SelfCare */,
-				03B0D3982378B9DA001439FF /* Medication */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		03B0D3902378B44D001439FF /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				03B0D36F2378A885001439FF /* DashboardView.swift */,
-				03B0D3932378B7EB001439FF /* DashboardViewController.swift */,
-				034E7650239D729F006C0958 /* DashboardViewModel.swift */,
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		03B0D3952378B9AE001439FF /* MoodLog */ = {
-			isa = PBXGroup;
-			children = (
-				034E7652239E1419006C0958 /* MoodLogView.swift */,
-				03B0D3992378B9F0001439FF /* MoodLogViewController.swift */,
-			);
-			path = MoodLog;
-			sourceTree = "<group>";
-		};
-		03B0D3962378B9C1001439FF /* Journal */ = {
-			isa = PBXGroup;
-			children = (
-				034E766823A0EABA006C0958 /* JournalView.swift */,
-				03B0D39F2378BAC5001439FF /* JournalViewController.swift */,
-				034E766223A0E7C3006C0958 /* JournalEntry.swift */,
-				034E766423A0EA63006C0958 /* AddJournalEntryViewController.swift */,
-				034E766623A0EA91006C0958 /* DisplayJournalEntryViewController.swift */,
-			);
-			path = Journal;
-			sourceTree = "<group>";
-		};
-		03B0D3972378B9D2001439FF /* SelfCare */ = {
-			isa = PBXGroup;
-			children = (
-				03B0D39B2378BA41001439FF /* SelfCareViewController.swift */,
-				FAD0D90F23832DE900CC88EB /* SelfCare.storyboard */,
-			);
-			path = SelfCare;
-			sourceTree = "<group>";
-		};
-		03B0D3982378B9DA001439FF /* Medication */ = {
-			isa = PBXGroup;
-			children = (
-				034E7654239E25EE006C0958 /* MedicationView.swift */,
-				03B0D39D2378BA57001439FF /* MedicationViewController.swift */,
-			);
-			path = Medication;
+			path = "Forget-Me-NotUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03B0D3672378A885001439FF /* forget-me-not */ = {
+		7AD08C7923C2480C008C6EAD /* Forget-Me-Not */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03B0D3872378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-not" */;
+			buildConfigurationList = 7AD08C9E23C24811008C6EAD /* Build configuration list for PBXNativeTarget "Forget-Me-Not" */;
 			buildPhases = (
-				03B0D3642378A885001439FF /* Sources */,
-				03B0D3652378A885001439FF /* Frameworks */,
-				03B0D3662378A885001439FF /* Resources */,
+				7AD08C7623C2480C008C6EAD /* Sources */,
+				7AD08C7723C2480C008C6EAD /* Frameworks */,
+				7AD08C7823C2480C008C6EAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "forget-me-not";
-			productName = "forget-me-not";
-			productReference = 03B0D3682378A885001439FF /* forget-me-not.app */;
+			name = "Forget-Me-Not";
+			productName = "Forget-Me-Not";
+			productReference = 7AD08C7A23C2480C008C6EAD /* Forget-Me-Not.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03B0D37D2378A886001439FF /* forget-me-notUITests */ = {
+		7AD08C9423C24811008C6EAD /* Forget-Me-NotUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03B0D38A2378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-notUITests" */;
+			buildConfigurationList = 7AD08CA123C24811008C6EAD /* Build configuration list for PBXNativeTarget "Forget-Me-NotUITests" */;
 			buildPhases = (
-				03B0D37A2378A886001439FF /* Sources */,
-				03B0D37B2378A886001439FF /* Frameworks */,
-				03B0D37C2378A886001439FF /* Resources */,
+				7AD08C9123C24811008C6EAD /* Sources */,
+				7AD08C9223C24811008C6EAD /* Frameworks */,
+				7AD08C9323C24811008C6EAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				03B0D3802378A886001439FF /* PBXTargetDependency */,
+				7AD08C9723C24811008C6EAD /* PBXTargetDependency */,
 			);
-			name = "forget-me-notUITests";
-			productName = "forget-me-notUITests";
-			productReference = 03B0D37E2378A886001439FF /* forget-me-notUITests.xctest */;
+			name = "Forget-Me-NotUITests";
+			productName = "Forget-Me-NotUITests";
+			productReference = 7AD08C9523C24811008C6EAD /* Forget-Me-NotUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03B0D3602378A885001439FF /* Project object */ = {
+		7AD08C7223C2480C008C6EAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Appollo;
 				TargetAttributes = {
-					03B0D3672378A885001439FF = {
-						CreatedOnToolsVersion = 11.0;
+					7AD08C7923C2480C008C6EAD = {
+						CreatedOnToolsVersion = 11.3;
 					};
-					03B0D37D2378A886001439FF = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 03B0D3672378A885001439FF;
+					7AD08C9423C24811008C6EAD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7AD08C7923C2480C008C6EAD;
 					};
 				};
 			};
-			buildConfigurationList = 03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */;
+			buildConfigurationList = 7AD08C7523C2480C008C6EAD /* Build configuration list for PBXProject "Forget-Me-Not" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,30 +196,34 @@
 				en,
 				Base,
 			);
-			mainGroup = 03B0D35F2378A885001439FF;
-			productRefGroup = 03B0D3692378A885001439FF /* Products */;
+			mainGroup = 7AD08C7123C2480C008C6EAD;
+			productRefGroup = 7AD08C7B23C2480C008C6EAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03B0D3672378A885001439FF /* forget-me-not */,
-				03B0D37D2378A886001439FF /* forget-me-notUITests */,
+				7AD08C7923C2480C008C6EAD /* Forget-Me-Not */,
+				7AD08C9423C24811008C6EAD /* Forget-Me-NotUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03B0D3662378A885001439FF /* Resources */ = {
+		7AD08C7823C2480C008C6EAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B0D3782378A886001439FF /* LaunchScreen.storyboard in Resources */,
-				03B0D3752378A886001439FF /* Preview Assets.xcassets in Resources */,
-				FAD0D91023832DE900CC88EB /* SelfCare.storyboard in Resources */,
-				03B0D3722378A886001439FF /* Assets.xcassets in Resources */,
+				7AC3127823C28A4A00277699 /* Rubik-BoldItalic.ttf in Resources */,
+				7AC3128423C2E40400277699 /* ActivitiesViewController.xib in Resources */,
+				7AC3127C23C28A5500277699 /* Rubik-Regular.ttf in Resources */,
+				7AD08C8F23C24811008C6EAD /* LaunchScreen.storyboard in Resources */,
+				7AC3127B23C28A5500277699 /* Rubik-Italic.ttf in Resources */,
+				7AC3127723C28A4A00277699 /* Rubik-Bold.ttf in Resources */,
+				7AD08C8C23C24811008C6EAD /* Assets.xcassets in Resources */,
+				7AD08C8723C2480C008C6EAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03B0D37C2378A886001439FF /* Resources */ = {
+		7AD08C9323C24811008C6EAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,54 +233,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03B0D3642378A885001439FF /* Sources */ = {
+		7AD08C7623C2480C008C6EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B0D3AE237A3C27001439FF /* Styles.swift in Sources */,
-				03B0D39A2378B9F0001439FF /* MoodLogViewController.swift in Sources */,
-				03B0D3A02378BAC5001439FF /* JournalViewController.swift in Sources */,
-				034E7651239D729F006C0958 /* DashboardViewModel.swift in Sources */,
-				03B0D36C2378A885001439FF /* AppDelegate.swift in Sources */,
-				034E7653239E1419006C0958 /* MoodLogView.swift in Sources */,
-				034E766923A0EABA006C0958 /* JournalView.swift in Sources */,
-				03B0D3922378B470001439FF /* TabBarController.swift in Sources */,
-				03B0D3942378B7EB001439FF /* DashboardViewController.swift in Sources */,
-				03B0D36E2378A885001439FF /* SceneDelegate.swift in Sources */,
-				034E766723A0EA92006C0958 /* DisplayJournalEntryViewController.swift in Sources */,
-				03B0D39E2378BA57001439FF /* MedicationViewController.swift in Sources */,
-				03B0D39C2378BA41001439FF /* SelfCareViewController.swift in Sources */,
-				034E766523A0EA64006C0958 /* AddJournalEntryViewController.swift in Sources */,
-				03B0D3AC237A3146001439FF /* UserData.swift in Sources */,
-				034E766323A0E7C3006C0958 /* JournalEntry.swift in Sources */,
-				03B0D3702378A885001439FF /* DashboardView.swift in Sources */,
-				034E7655239E25EE006C0958 /* MedicationView.swift in Sources */,
+				7AC3127E23C2B6DF00277699 /* JournalViewController.swift in Sources */,
+				7AC3128323C2E40400277699 /* ActivitiesViewController.swift in Sources */,
+				7AD08C8A23C2480C008C6EAD /* Forget_Me_Not.xcdatamodeld in Sources */,
+				7AD08CA523C24A08008C6EAD /* DashboardViewController.swift in Sources */,
+				7AD08C7E23C2480C008C6EAD /* AppDelegate.swift in Sources */,
+				7AD08C8023C2480C008C6EAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03B0D37A2378A886001439FF /* Sources */ = {
+		7AD08C9123C24811008C6EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B0D3832378A886001439FF /* forget_me_notUITests.swift in Sources */,
+				7AD08C9A23C24811008C6EAD /* Forget_Me_NotUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03B0D3802378A886001439FF /* PBXTargetDependency */ = {
+		7AD08C9723C24811008C6EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03B0D3672378A885001439FF /* forget-me-not */;
-			targetProxy = 03B0D37F2378A886001439FF /* PBXContainerItemProxy */;
+			target = 7AD08C7923C2480C008C6EAD /* Forget-Me-Not */;
+			targetProxy = 7AD08C9623C24811008C6EAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03B0D3762378A886001439FF /* LaunchScreen.storyboard */ = {
+		7AD08C8523C2480C008C6EAD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03B0D3772378A886001439FF /* Base */,
+				7AD08C8623C2480C008C6EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AD08C8D23C24811008C6EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD08C8E23C24811008C6EAD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -364,7 +284,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		03B0D3852378A886001439FF /* Debug */ = {
+		7AD08C9C23C24811008C6EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		03B0D3862378A886001439FF /* Release */ = {
+		7AD08C9D23C24811008C6EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -468,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -478,117 +398,128 @@
 			};
 			name = Release;
 		};
-		03B0D3882378A886001439FF /* Debug */ = {
+		7AD08C9F23C24811008C6EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"forget-me-not/Preview Content\"";
-				DEVELOPMENT_TEAM = 84ACB5QJ96;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "forget-me-not/Info.plist";
+				DEVELOPMENT_TEAM = UHT27LF835;
+				INFOPLIST_FILE = "Forget-Me-Not/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-not";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appollo.Forget-Me-Not";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		03B0D3892378A886001439FF /* Release */ = {
+		7AD08CA023C24811008C6EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"forget-me-not/Preview Content\"";
-				DEVELOPMENT_TEAM = 84ACB5QJ96;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "forget-me-not/Info.plist";
+				DEVELOPMENT_TEAM = UHT27LF835;
+				INFOPLIST_FILE = "Forget-Me-Not/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-not";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appollo.Forget-Me-Not";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		03B0D38B2378A886001439FF /* Debug */ = {
+		7AD08CA223C24811008C6EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84ACB5QJ96;
-				INFOPLIST_FILE = "forget-me-notUITests/Info.plist";
+				DEVELOPMENT_TEAM = UHT27LF835;
+				INFOPLIST_FILE = "Forget-Me-NotUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-notUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appollo.Forget-Me-NotUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "forget-me-not";
+				TEST_TARGET_NAME = "Forget-Me-Not";
 			};
 			name = Debug;
 		};
-		03B0D38C2378A886001439FF /* Release */ = {
+		7AD08CA323C24811008C6EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84ACB5QJ96;
-				INFOPLIST_FILE = "forget-me-notUITests/Info.plist";
+				DEVELOPMENT_TEAM = UHT27LF835;
+				INFOPLIST_FILE = "Forget-Me-NotUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.forget-me-notUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appollo.Forget-Me-NotUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "forget-me-not";
+				TEST_TARGET_NAME = "Forget-Me-Not";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03B0D3632378A885001439FF /* Build configuration list for PBXProject "forget-me-not" */ = {
+		7AD08C7523C2480C008C6EAD /* Build configuration list for PBXProject "Forget-Me-Not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03B0D3852378A886001439FF /* Debug */,
-				03B0D3862378A886001439FF /* Release */,
+				7AD08C9C23C24811008C6EAD /* Debug */,
+				7AD08C9D23C24811008C6EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03B0D3872378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-not" */ = {
+		7AD08C9E23C24811008C6EAD /* Build configuration list for PBXNativeTarget "Forget-Me-Not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03B0D3882378A886001439FF /* Debug */,
-				03B0D3892378A886001439FF /* Release */,
+				7AD08C9F23C24811008C6EAD /* Debug */,
+				7AD08CA023C24811008C6EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03B0D38A2378A886001439FF /* Build configuration list for PBXNativeTarget "forget-me-notUITests" */ = {
+		7AD08CA123C24811008C6EAD /* Build configuration list for PBXNativeTarget "Forget-Me-NotUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03B0D38B2378A886001439FF /* Debug */,
-				03B0D38C2378A886001439FF /* Release */,
+				7AD08CA223C24811008C6EAD /* Debug */,
+				7AD08CA323C24811008C6EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AD08C8823C2480C008C6EAD /* Forget_Me_Not.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AD08C8923C2480C008C6EAD /* Forget_Me_Not.xcdatamodel */,
+			);
+			currentVersion = 7AD08C8923C2480C008C6EAD /* Forget_Me_Not.xcdatamodel */;
+			path = Forget_Me_Not.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 03B0D3602378A885001439FF /* Project object */;
+	rootObject = 7AD08C7223C2480C008C6EAD /* Project object */;
 }
