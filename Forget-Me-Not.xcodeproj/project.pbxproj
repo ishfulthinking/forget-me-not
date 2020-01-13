@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D14A4A23C906D600AF96D6 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D14A4923C906D600AF96D6 /* ActivityCell.swift */; };
+		07D14A4C23C929DF00AF96D6 /* DisplayActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D14A4B23C929DF00AF96D6 /* DisplayActivityViewController.swift */; };
 		7AC3127723C28A4A00277699 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3127523C28A4A00277699 /* Rubik-Bold.ttf */; };
 		7AC3127823C28A4A00277699 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3127623C28A4A00277699 /* Rubik-BoldItalic.ttf */; };
 		7AC3127B23C28A5500277699 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3127923C28A5500277699 /* Rubik-Italic.ttf */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D14A4923C906D600AF96D6 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityCell.swift; path = "Forget-Me-Not/Activities/ActivityCell.swift"; sourceTree = SOURCE_ROOT; };
+		07D14A4B23C929DF00AF96D6 /* DisplayActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisplayActivityViewController.swift; path = "Forget-Me-Not/Activities/DisplayActivityViewController.swift"; sourceTree = SOURCE_ROOT; };
 		7AC3127523C28A4A00277699 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		7AC3127623C28A4A00277699 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
 		7AC3127923C28A5500277699 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
@@ -74,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D14A4D23C92B4F00AF96D6 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				7AC3128123C2E40400277699 /* ActivitiesViewController.swift */,
+				7AC3128223C2E40400277699 /* ActivitiesViewController.xib */,
+				07D14A4923C906D600AF96D6 /* ActivityCell.swift */,
+				07D14A4B23C929DF00AF96D6 /* DisplayActivityViewController.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
 		7AC3127423C2898E00277699 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +127,7 @@
 				7AD08C8523C2480C008C6EAD /* Main.storyboard */,
 				7AD08CA423C24A08008C6EAD /* DashboardViewController.swift */,
 				7AC3127D23C2B6DF00277699 /* JournalViewController.swift */,
-				7AC3128123C2E40400277699 /* ActivitiesViewController.swift */,
-				7AC3128223C2E40400277699 /* ActivitiesViewController.xib */,
+				07D14A4D23C92B4F00AF96D6 /* Activities */,
 				7AD08C8B23C24811008C6EAD /* Assets.xcassets */,
 				7AD08C9023C24811008C6EAD /* Info.plist */,
 				7AD08C8823C2480C008C6EAD /* Forget_Me_Not.xcdatamodeld */,
@@ -237,10 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D14A4C23C929DF00AF96D6 /* DisplayActivityViewController.swift in Sources */,
 				7AC3127E23C2B6DF00277699 /* JournalViewController.swift in Sources */,
 				7AC3128323C2E40400277699 /* ActivitiesViewController.swift in Sources */,
 				7AD08C8A23C2480C008C6EAD /* Forget_Me_Not.xcdatamodeld in Sources */,
 				7AD08CA523C24A08008C6EAD /* DashboardViewController.swift in Sources */,
+				07D14A4A23C906D600AF96D6 /* ActivityCell.swift in Sources */,
 				7AD08C7E23C2480C008C6EAD /* AppDelegate.swift in Sources */,
 				7AD08C8023C2480C008C6EAD /* SceneDelegate.swift in Sources */,
 			);
